@@ -24,4 +24,10 @@ Here, divide hue into four parts and form a 4-bin histogram.
 5. Continue to stack the hue corresponding to each color.
 Then color histograms are complete.
 
-**How to calculate whether color histogras are similar between two pictures**
+**How to calculate if color histograms are similar between two pictures**
+![Metric](https://user-images.githubusercontent.com/88317168/128590354-dbb5db7b-f1c3-463c-8a52-0360454bb577.png)
+If the difference between the two images is large, then the calculation result will be large.
+And if the difference is small, then the result will be small.
+The resulting value will always be a number between 0 and 1.
+(0: Different, 1: Same)
+
