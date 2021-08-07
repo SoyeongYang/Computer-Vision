@@ -31,7 +31,7 @@ And if the difference is small, then the result will be small.
 The resulting value will always be a number between 0 and 1.
 (0: Different, 1: Same)
 
-### Histogram of Oriented Gradients (HOG)
+## Histogram of Oriented Gradients (HOG)
 Extract the gradient from the image becuase we will examine similarities in form between two pictures. Especially, it shows strength in the field of Person Detection. It creates a histogram corresponding to each grid from image.
 
 **How to run**
@@ -39,3 +39,12 @@ Extract the gradient from the image becuase we will examine similarities in form
 2. Compute gradients: Calculate gradients ignoring brightness, color information etc.
 3. Weighted vote into spatial & orientation cells: Divide image into pixel 'cells' and gather information about gradients.
 4. Contrast normalize over overlapping spatial blocks: Add all the histogram information contained in each block.
+
+## Code Execution (Image Retrieval)
+Using the code, find and run two data samples with good **Color histograms** and **Histogram of Oriented Gradients** functioning respectively.<br>
+
++ Color histograms execution results<br>
+![color](https://user-images.githubusercontent.com/88317168/128591667-0d01a7f9-52ec-4eb4-a62d-a9461df4f3ad.png)
+
++ Histogram of Oriented Gradients execution results<br>
+![hog](https://user-images.githubusercontent.com/88317168/128591674-3d6e45dd-e094-4435-a58f-0c10ff37b468.png)
