@@ -43,6 +43,9 @@ Extract the gradient from the image becuase we will examine similarities in form
 ## Code Execution (Image Retrieval)
 Using the code, find and run two data samples with good **Color histograms** and **Histogram of Oriented Gradients** functioning respectively.<br>
 
++ Target Image<br>
+![target](https://user-images.githubusercontent.com/88317168/128591980-1d17ae51-f46e-4613-aaa2-3b2fe83923c6.png)
+
 + Color histograms execution results<br>
 ![color](https://user-images.githubusercontent.com/88317168/128591667-0d01a7f9-52ec-4eb4-a62d-a9461df4f3ad.png)
 
