@@ -1,8 +1,8 @@
 # Computer-Vision
 Computer Vision: Algorithms and Applications
 
-1. 2D Computer Graphics: How to draw images
-2. Image Processing: How to deal with images
++ 2D Computer Graphics: How to draw images
++ Image Processing: How to deal with images
 
 
 ## Handcrafted Visual Features
@@ -23,3 +23,5 @@ Here, divide hue into four parts and form a 4-bin histogram.
 4. The average color of each pixel corresponds to one hue.
 5. Continue to stack the hue corresponding to each color.
 Then color histograms are complete.
+
+**How to calculate whether color histogras are similar between two pictures**
